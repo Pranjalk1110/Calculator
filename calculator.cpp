@@ -4,7 +4,6 @@ class calculator
 {
 	public:
 		int n;
-		char op;
 		void add();
 		void sub();
 		void div();
@@ -26,7 +25,7 @@ void calculator::add()
 }
 void calculator::sub()
 {
-	int num1,num2,z;
+     int num1,num2,z;
     cout<<"Enter the first number :";
     cin>>num1;
     cout<<"Enter the second number :";
